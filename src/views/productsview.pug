@@ -1,0 +1,11 @@
+div
+  table
+    thead
+      tr
+        th(scope='col') #
+        th(scope='col') Title
+        th(scope='col') Price
+        th(scope='col') Img
+        include partials/history.pug
+  form(action='/' method='get')
+    button.btn.btn-dark(type='submit') Volver al Post
